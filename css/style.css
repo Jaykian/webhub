@@ -12,6 +12,22 @@ a
 {
 	color:black
 }
+#projects
+{
+	display: none;
+	background: orange;
+	border-bottom: 1px solid black;
+}
+.btn 
+{
+  background-color: #00a0ab;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  float: right;
+}
 
 
 .logo_image

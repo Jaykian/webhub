@@ -2,26 +2,54 @@
 	<head>
 		<title> Welcome </title>
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
-		</head>
+		
+		<script>
+			function show ()
+			{
+				var div = document.getElementById("projects");
+				div.style.display="block";
+			}
+			function hide ()
+			{
+				var div = document.getElementById("projects");
+				div.style.display="none";
+			}
+			function show ()
+			{
+				var div = document.getElementById("CV");
+				div.style.display="block";
+			}
+			function hide ()
+			{
+				var div = document.getElementById("CV");
+				div.style.display="none";
+			}
+		</script>
+	</head>
 		
 		<div id= "header">
 			<div class="logo_image">
-			<img  class="logo_image" src="image/dog.PNG">
+				<img  class="logo_image" src="image/dog.PNG">
 			</div>
 			<div class="nav_bar" >
-			Home | <a href="contact.html">contact</a> | <a href="CV.html"> CV </a> |<a href="projects.html"> Projects</a>
+				Home | <a href="contact.html"> contact</a> | <a href="CV.html"> CV </a> |<a onclick="show()" href="#"> Projects </a>
 			</div>
 		</div>
 		
-		<body id="background" >
-		<p> Hello and weclone to my site!</p>
-		<p style="font-weight:bold ; color: blue"> This site is likey the best place to be to see <span style="color:red ">my work</span></p>
-		<p><i> the other line was too long</i> </p>
+		<div id="projects">
+			<a href="projects.html"> work</a>
+			<a onclick="hide()" href="#">close</a>
+		</div>
 		
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/fJbg0trLJww" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<body id="background" >
+			<p> Hello and weclone to my site!</p>
+			<p style="font-weight:bold ; color: blue"> This site is likey the best place to be to see <span style="color:red ">my work</span></p>
+			<p><i> the other line was too long</i> </p>
+		
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/fJbg0trLJww" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			
 			<div class = "footer">
-			<p>bottom text</p>
+				<p>bottom text</p>
 			</div>
 
 		</body>
