@@ -3,7 +3,12 @@
 	background: gray; 
 	height: 3rem;
 }
-
+#dropdown
+{
+	width: 50px;
+	height: 50px;
+	float: right;
+}
 #background
 {
 	background: teal;
@@ -39,7 +44,7 @@ a
 .nav_bar
 {
 	float: right;
-	padding: 2rem
+
 }
 
 .footer 

@@ -2,15 +2,33 @@
 	<head>
 		<title>projects</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script>
+			function show ()
+			{
+				var div = document.getElementById("projects");
+				div.style.display="block";
+			}
+			function hide ()
+			{
+				var div = document.getElementById("projects");
+				div.style.display="none";
+			}
+		</script>
 	</head>
-	<div id="header">
-		<div class="logo_image">
-		<img  class="logo_image" src="image/dog.PNG">
-	</div>
-	<div class="nav_bar">
-		<a href="Home.html"> Home </a> |  <a href="Contact.html">contact</a> | <a href="CV.html"> CV </a> | Projects
-	</div>
-	</div>
+
+		<div id= "header">
+			<div class="logo_image">
+				<img  class="logo_image" src="image/dog.PNG">
+			</div>
+			<div class="nav_bar" >
+			 <a onclick="show()" href="#"><img id="dropdown" src="image/dropdown.PNG"></a>
+			</div>
+		</div>
+		
+		<div id="projects">
+		<a href="Home.html"> Home </a> | <a href="contact.html"> contact</a> | <a href="CV.html"> CV </a> |projects
+			<a style="float: right" onclick="hide()" href="#">close</a>
+		</div>
 	
 	<body id="background">
 		projects
