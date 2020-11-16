@@ -3,6 +3,14 @@
 		<title>projects</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 		<script>
+			<!-- audio-->
+			function start() 
+			{
+			var clip = new Audio();
+			clip.src = "sound/music.ogg"
+			clip.play();
+			}
+			<!-- nav bar drop down-->
 			function show ()
 			{
 				var div = document.getElementById("projects");
@@ -13,6 +21,7 @@
 				var div = document.getElementById("projects");
 				div.style.display="none";
 			}
+			<!-- using the canvis to play something-->
 			function main()
 			{
 				var canvas = document.getElementById("canvas");
@@ -47,6 +56,7 @@
 				playerImage = new Image();
 				playerImage.scr = "image/dog.png";
 			}
+
 		</script>
 	</head>
 
@@ -65,6 +75,12 @@
 		</div>
 	
 	<body id="background">
+	<div>
 		<canvas id="canvas" style="background: green"> </canvas>
+	</div>
+	<div>
+	this button will play you some cool music 
+		<input href ="#" type="button" onclick="start();"></input>
+	</div>
 	</body>
 </html>
