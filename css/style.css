@@ -23,6 +23,13 @@ a
 	background: orange;
 	border-bottom: 1px solid black;
 }
+#walking
+{
+	font-weight:bold;
+	text-decoration: underline;
+	
+	
+}
 .btn 
 {
   background-color: #00a0ab;
