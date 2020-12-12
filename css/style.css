@@ -5,9 +5,9 @@
 }
 #padding
 {
-	 padding: 5px 50px 75px 400px;
+	 padding: 5px 50px 50px 400px;
 }
-#me
+#center_image
 {
 	border: 200pc;
 	width: 200px;
@@ -37,8 +37,6 @@ a
 {
 	font-weight:bold;
 	text-decoration: underline;
-	
-	
 }
 .center
  {
@@ -59,11 +57,10 @@ a
   float: right;
 }
 
-
 .logo_image
 {
 	float: left;
-	width: 3rem ;
+	width: 3rem;
 }
 
 .nav_bar
